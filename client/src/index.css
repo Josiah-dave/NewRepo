@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
+}
+
+.font-segoe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-dark{
+    background: #242424;
+    /* position: ; */
+}
+
+
+.align-center{
+    display: flex;
+    align-items: center;
+  
+}
+
+hr{
+    height: 0.5px !important;
+    background: #000000;
+}
+
+.trans{
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+.trans1{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.cart{
+    font-size: 9px;
+    width: 15px !important;
+    height: 15px;
+    text-align: center;
+}
+
+.font-cursive{
+    font-family: cursive;
+}
+
+.text-1xl{
+    font-size: 30px;
+}
+.line{
+    height: 0.3px !important;
+    background: gray !
+    ;
+}
+.home1{
+    background: url(./Shopping/main-banner-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 80vh; */
+}
+.home2{
+    background: url(./Shopping/main-banner-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* height: 80vh; */
+}
+/* .home3{
+    background: url(./Shopping/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} */
+/* .home4{
+    background: url(./Shopping/111.jpg);
+    background-size: cover;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+} */
+
+
+.banner{
+    background: url(./Shopping/cms-banner.png);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+
+.review{
+    background: url(./Shopping/riview-bkg.png);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.parent ul{
+    display: none;
+}
+
+.parent:hover > ul{
+    display: block;
+}
+
+#notifyToast {
+    /* color: #fff; */
+    /* border-radius: 6px;
+    width: 200px;
+    margin-left: 75px; */
+    /* background-color: rgb(2, 2, 42); */
+  }
+
+@media (min-width: 640px) {
+    table {
+      display: inline-table !important;
+    }
+
+    thead tr:not(:first-child) {
+      display: none;
+    }
+  }
+
+  td:not(:last-child) {
+    border-bottom: 0;
+  }
+
+  th:not(:last-child) {
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+  }
